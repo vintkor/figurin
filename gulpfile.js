@@ -33,7 +33,10 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 gulp.task('scripts', function() {
     return gulp.src([ // Берем все необходимые библиотеки
         'app/libs/jquery/dist/jquery.min.js', // Берем jQuery
-        'app/libs/bootstrap/dist/js/bootstrap.min.js'
+        'app/libs/bootstrap/dist/js/bootstrap.min.js',
+        'app/libs/wow.js',
+        'app/libs/jquery.maskedinput/dist/jquery.maskedinput.js',
+        'app/libs/sweetalert/dist/sweetalert.min.js'
         ])
         .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
         .pipe(uglify()) // Сжимаем JS файл

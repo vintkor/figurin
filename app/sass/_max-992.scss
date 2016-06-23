@@ -1,0 +1,229 @@
+@media (max-width: 992px) {
+	$font-size: 16px;
+
+	/*------------------------ Total styles --------------------------*/
+	h1 {font-size: 38px}
+	h2 {font-size: 30px}
+	h3 {font-size: 20px}
+
+	body,div,li,a,p {font-size: $font-size;}
+
+	.order {
+		padding: 10px 20px;
+		border-radius: 25px;
+		font-size: 16px;
+	}
+
+	.price {
+		font-size: 44px;
+	}
+
+	.price-uah {
+		font-size: 22px;
+	}
+
+	.bad-price {
+		font-size: 22px;
+	}
+
+	/*------------------------ header --------------------------*/
+
+	.header {
+		.row {
+			padding: 60px 0;
+		}
+
+		.container {
+			img {
+				left: 280px;
+			}		
+		}
+	}
+
+	/*------------------------ Section-1 --------------------------*/
+
+	.section-1 {
+		padding: 60px 0;
+		h3 {
+			line-height: normal;
+		}
+		.line {
+			margin: 50px auto;
+		}
+		img {
+			right: -15px;
+			top: 100px;
+			width: 50%;
+			height:auto;
+		}
+		.sub-section {
+			p {
+				line-height: 22px;
+			}
+		}
+	}
+
+	/*------------------------ Section-2 --------------------------*/
+
+	
+
+	/*------------------------ Section-3 --------------------------*/
+
+	.section-3 {
+		padding: 60px 0 20px;
+		.line {
+			margin: 44px auto;
+		}
+		li {
+			font-size: 16px;
+			line-height: 20px;
+		}
+	}
+
+	/*------------------------ Section-4 --------------------------*/
+
+	.section-4 {
+		h2 {
+			line-height: 38px;
+			font-size: 30px;
+		}
+		p {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+
+	/*------------------------ Section-5 --------------------------*/
+
+	.section-5 {
+		padding: 60px 0 30px;
+		h2 {
+			font-size: 30px;
+			line-height: 38px;
+		}
+		.line {
+			margin: 44px auto 0;
+		}
+	}
+
+	/*------------------------ Section-6 --------------------------*/
+
+	.section-6 {
+		h2 {
+			line-height: 38px;
+			margin-bottom: 60px;
+		}
+		.row {
+			padding: 60px 0 30px;
+		}
+	}
+
+	/*------------------------ Section-7 --------------------------*/
+
+	
+	/*------------------------ Section-8 --------------------------*/
+
+
+	/*------------------------ Section-9 --------------------------*/
+
+	.section-9 {
+		padding: 60px 0;
+		h2 {
+			font-size: 30px;
+			line-height: 38px;
+		}
+	}
+
+	/*------------------------ Section-10 --------------------------*/
+
+	.section-10 {
+		.row {
+			padding: 60px 0;
+		}
+		h2 {
+			line-height: 38px;
+			font-size: 30px;
+		}
+	}
+
+	/*------------------------ Section-11 --------------------------*/
+
+	.section-11 {
+		padding: 60px 0;
+		h2 {
+			line-height: 38px;
+			font-size: 30px;
+		}
+		li {
+			font-size: 16px;
+		}
+		ul {
+			margin-bottom: 60px;
+		}
+		h3 {
+			font-size: 24px;
+			padding: 28px 0;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+
+	/*------------------------ Section-12 --------------------------*/
+
+	.section-12 {
+		img {
+			left: 0;
+			margin-top: -160px;
+		}
+		h2 {
+			padding: 60px 0;
+			line-height: 38px;
+		}
+	}
+
+	/*------------------------ Section-13 --------------------------*/
+
+	.section-13 {
+		padding: 60px 0;
+		h2 {
+			font-size: 22px;
+		}
+		p.after-border {
+			font-size: 16px;
+			line-height: 28px;
+			margin: 50px 0 0;
+		}
+		h3 {
+			padding: 30px 0 65px;
+			font-size: 30px;
+		}
+		.blue-border {
+			img {
+				right: -15px;
+				top: 100px;
+				width: 50%;
+				height:auto;
+			}
+		}
+		.sub-section {
+			margin-top: 0px;
+			h3 {
+				font-size: 22px;
+				line-height: 28px;
+				margin-bottom: 0px;
+			}
+			p {
+				line-height: 24px;
+				font-size: 16px;
+			}
+		}
+	}
+
+	/*------------------------ Section-14 --------------------------*/
+
+
+
+	/*------------------------ Footer --------------------------*/
+
+}

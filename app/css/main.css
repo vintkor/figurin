@@ -51,6 +51,13 @@
   font-weight: 900; }
 
 /*------------------------ Total styles --------------------------*/
+::-moz-selection {
+  background: #ff4479;
+  color: white; }
+::selection {
+  background: #ff4479;
+  color: white; }
+
 h1, h2, h3, h4, h5, h6, body, div, span, li, a, p {
   font-family: "Museo Sans Cyrl";
   font-weight: 100; }
@@ -96,10 +103,7 @@ li {
 
 .bad-price {
   font-size: 24px;
-  text-decoration: line-through;
-  -webkit-text-decoration-color: #ff4479;
-     -moz-text-decoration-color: #ff4479;
-          text-decoration-color: #ff4479; }
+  text-decoration: line-through; }
 
 /*------------------------ header --------------------------*/
 .header {
@@ -266,7 +270,8 @@ li {
   .section-5 h3 {
     position: relative;
     font-weight: 700;
-    font-size: 18px; }
+    font-size: 18px;
+    padding-left: 5px; }
     .section-5 h3:before {
       position: absolute;
       content: "";
@@ -310,25 +315,536 @@ li {
 /*------------------------ Section-8 --------------------------*/
 /*------------------------ Section-9 --------------------------*/
 .section-9 {
-  padding: 60px 0; }
+  padding: 82px 0 98px; }
+  .section-9 h2 {
+    max-width: 868px;
+    font-size: 36px;
+    line-height: 43px; }
+  .section-9 h3 {
+    font-size: 28px;
+    padding: 38px 0 45px;
+    font-weight: 300; }
+  .section-9 .blue-border {
+    border: 15px solid #c7edf7;
+    padding: 28px 0 17px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 28px; }
+    .section-9 .blue-border p {
+      font-size: 24px;
+      font-weight: 500; }
+  .section-9 .row .row .col-sm-6 {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px; }
+  .section-9 .row .row h3 {
+    position: relative;
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0; }
+    .section-9 .row .row h3:before {
+      position: absolute;
+      content: "";
+      top: 8px;
+      left: -30px;
+      height: 4px;
+      width: 20px;
+      background: #ff4479; }
+  .section-9 .row .row p {
+    line-height: 24px; }
 
 /*------------------------ Section-10 --------------------------*/
 .section-10 {
-  padding: 60px 0; }
+  background: #ffeff6;
+  overflow: hidden; }
+  .section-10 .row {
+    padding: 82px 0 99px; }
+  .section-10 .container {
+    position: relative; }
+  .section-10 img {
+    position: absolute;
+    height: 100%;
+    right: -483px; }
+  .section-10 h2 {
+    line-height: 43px; }
 
 /*------------------------ Section-11 --------------------------*/
 .section-11 {
-  padding: 60px 0; }
+  padding: 86px 0; }
+  .section-11 .line {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 44px auto 16px;
+    position: relative;
+    background: #e9e9e9;
+    height: 5px;
+    width: 100%; }
+  .section-11 h2 {
+    line-height: 42px;
+    margin-bottom: 64px; }
+  .section-11 li {
+    margin-left: -10px;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 25px; }
+  .section-11 ul {
+    margin-bottom: 75px; }
+  .section-11 h3 {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 28px 0 32px; }
+  .section-11 p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 28px; }
 
 /*------------------------ Section-12 --------------------------*/
 .section-12 {
-  padding: 60px 0; }
+  background: #f8f8f0;
+  overflow: hidden; }
+  .section-12 .container {
+    position: relative; }
+  .section-12 img {
+    position: relative;
+    height: 100%;
+    left: -22px;
+    margin-top: -130px; }
+  .section-12 h2 {
+    padding: 80px 0 32px;
+    text-align: center;
+    line-height: 43px; }
+  .section-12 .line {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0px auto 16px;
+    position: relative;
+    background: #e9e9e9;
+    height: 5px;
+    width: 160px; }
+  .section-12 h3 {
+    padding: 38px 0 17px;
+    font-size: 18px;
+    font-weight: 700; }
+  .section-12 li {
+    margin-left: -10px;
+    line-height: 22px;
+    margin-bottom: 12px; }
 
 /*------------------------ Section-13 --------------------------*/
 .section-13 {
-  padding: 60px 0; }
+  padding: 86px 0 64px; }
+  .section-13 h2 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 36px; }
+  .section-13 .grey-border {
+    border: 15px solid #e0e0e0;
+    padding: 31px 0 22px;
+    position: relative;
+    text-align: center;
+    margin: 52px 0 30px; }
+    .section-13 .grey-border p {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28px; }
+  .section-13 p.after-border {
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 50px 0 30px; }
+  .section-13 h3 {
+    text-align: center;
+    padding: 79px 0 65px;
+    font-size: 30px;
+    font-weight: 300; }
+  .section-13 .blue-border {
+    border: 15px solid #c7edf7;
+    padding: 16px 0 58px;
+    position: relative; }
+    .section-13 .blue-border h3 {
+      text-align: left;
+      padding: 0;
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 300; }
+    .section-13 .blue-border img {
+      position: absolute;
+      display: block;
+      right: 25px;
+      top: 20px; }
+    .section-13 .blue-border p {
+      margin-top: -6px; }
+    .section-13 .blue-border .price {
+      display: inline-block;
+      margin-bottom: 29px; }
+  .section-13 .sub-section {
+    margin-top: 0px; }
+    .section-13 .sub-section h3 {
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 0px;
+      text-align: left;
+      padding: 46px 0 10px; }
+    .section-13 .sub-section p {
+      line-height: 27px;
+      font-weight: 100;
+      font-size: 18px; }
+    .section-13 .sub-section .get-out {
+      display: inline-block;
+      margin-top: 31px;
+      margin-left: 27px;
+      font-weight: 300;
+      line-height: 24px; }
 
 /*------------------------ Section-14 --------------------------*/
 /*------------------------ Footer --------------------------*/
 .footer {
-  padding: 40px 0 20px; }
+  padding: 54px 0 30px; }
+  .footer p {
+    font-size: 14px;
+    line-height: 24px; }
+  .footer p.fs-16 {
+    font-size: 16px;
+    line-height: 20px; }
+
+/*---FB---*/
+.fblike {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99; }
+
+@media (max-width: 992px) {
+  /*------------------------ Total styles --------------------------*/
+  h1 {
+    font-size: 38px; }
+  h2 {
+    font-size: 30px; }
+  h3 {
+    font-size: 20px; }
+  body, div, li, a, p {
+    font-size: 16px; }
+  .order {
+    padding: 10px 20px;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    font-size: 16px; }
+  .price {
+    font-size: 44px; }
+  .price-uah {
+    font-size: 22px; }
+  .bad-price {
+    font-size: 22px; }
+  /*------------------------ header --------------------------*/
+  .header .row {
+    padding: 60px 0; }
+  .header .container img {
+    left: 280px; }
+  /*------------------------ Section-1 --------------------------*/
+  .section-1 {
+    padding: 60px 0; }
+    .section-1 h3 {
+      line-height: normal; }
+    .section-1 .line {
+      margin: 50px auto; }
+    .section-1 img {
+      right: -15px;
+      top: 100px;
+      width: 50%;
+      height: auto; }
+    .section-1 .sub-section p {
+      line-height: 22px; }
+  /*------------------------ Section-2 --------------------------*/
+  /*------------------------ Section-3 --------------------------*/
+  .section-3 {
+    padding: 60px 0 20px; }
+    .section-3 .line {
+      margin: 44px auto; }
+    .section-3 li {
+      font-size: 16px;
+      line-height: 20px; }
+  /*------------------------ Section-4 --------------------------*/
+  .section-4 h2 {
+    line-height: 38px;
+    font-size: 30px; }
+  .section-4 p {
+    font-size: 16px;
+    line-height: 24px; }
+  /*------------------------ Section-5 --------------------------*/
+  .section-5 {
+    padding: 60px 0 30px; }
+    .section-5 h2 {
+      font-size: 30px;
+      line-height: 38px; }
+    .section-5 .line {
+      margin: 44px auto 0; }
+  /*------------------------ Section-6 --------------------------*/
+  .section-6 h2 {
+    line-height: 38px;
+    margin-bottom: 60px; }
+  .section-6 .row {
+    padding: 60px 0 30px; }
+  /*------------------------ Section-7 --------------------------*/
+  /*------------------------ Section-8 --------------------------*/
+  /*------------------------ Section-9 --------------------------*/
+  .section-9 {
+    padding: 60px 0; }
+    .section-9 h2 {
+      font-size: 30px;
+      line-height: 38px; }
+  /*------------------------ Section-10 --------------------------*/
+  .section-10 .row {
+    padding: 60px 0; }
+  .section-10 h2 {
+    line-height: 38px;
+    font-size: 30px; }
+  /*------------------------ Section-11 --------------------------*/
+  .section-11 {
+    padding: 60px 0; }
+    .section-11 h2 {
+      line-height: 38px;
+      font-size: 30px; }
+    .section-11 li {
+      font-size: 16px; }
+    .section-11 ul {
+      margin-bottom: 60px; }
+    .section-11 h3 {
+      font-size: 24px;
+      padding: 28px 0; }
+    .section-11 p {
+      font-size: 16px; }
+  /*------------------------ Section-12 --------------------------*/
+  .section-12 img {
+    left: 0;
+    margin-top: -160px; }
+  .section-12 h2 {
+    padding: 60px 0;
+    line-height: 38px; }
+  /*------------------------ Section-13 --------------------------*/
+  .section-13 {
+    padding: 60px 0; }
+    .section-13 h2 {
+      font-size: 22px; }
+    .section-13 p.after-border {
+      font-size: 16px;
+      line-height: 28px;
+      margin: 50px 0 0; }
+    .section-13 h3 {
+      padding: 30px 0 65px;
+      font-size: 30px; }
+    .section-13 .blue-border img {
+      right: -15px;
+      top: 100px;
+      width: 50%;
+      height: auto; }
+    .section-13 .sub-section {
+      margin-top: 0px; }
+      .section-13 .sub-section h3 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 0px; }
+      .section-13 .sub-section p {
+        line-height: 24px;
+        font-size: 16px; }
+  /*------------------------ Section-14 --------------------------*/
+  /*------------------------ Footer --------------------------*/ }
+
+@media (max-width: 768px) {
+  /*------------------------ Total styles --------------------------*/
+  h1 {
+    font-size: 28px; }
+  h2 {
+    font-size: 24px; }
+  h3 {
+    font-size: 16px; }
+  body, div, li, a, p {
+    font-size: 16px; }
+  .order {
+    padding: 10px 15px;
+    font-size: 16px; }
+  .price {
+    font-size: 40px; }
+  .price-uah {
+    font-size: 16px; }
+  .bad-price {
+    font-size: 16px; }
+  /*------------------------ header --------------------------*/
+  .header .row {
+    padding: 30px 0; }
+  .header .container img {
+    display: none; }
+  .header h1 {
+    margin-bottom: 38px;
+    line-height: 38px;
+    font-size: 28px; }
+  .header h3 {
+    line-height: 26px;
+    font-size: 16px; }
+  /*------------------------ Section-1 --------------------------*/
+  .section-1 {
+    padding: 30px 0; }
+    .section-1 h3 {
+      font-size: 16px;
+      line-height: 26px; }
+    .section-1 .line {
+      margin: 30px auto 40px; }
+    .section-1 img {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 90%;
+      margin: 0 auto; }
+    .section-1 .sub-section h3 {
+      font-size: 18px; }
+  /*------------------------ Section-2 --------------------------*/
+  .section-2 h2 {
+    font-size: 28px;
+    line-height: 38px; }
+  /*------------------------ Section-3 --------------------------*/
+  .section-3 {
+    padding: 30px 0; }
+    .section-3 .line {
+      margin: 44px auto; }
+    .section-3 h2 {
+      font-size: 28px; }
+    .section-3 li {
+      font-size: 16px;
+      margin-left: -30px; }
+      .section-3 li .number {
+        font-size: 44px;
+        margin-right: 15px;
+        margin-bottom: 60px; }
+  /*------------------------ Section-4 --------------------------*/
+  .section-4 h2 {
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 30px; }
+  .section-4 .container {
+    position: relative; }
+  .section-4 .row {
+    padding: 30px 0; }
+  .section-4 img {
+    display: none; }
+  /*------------------------ Section-5 --------------------------*/
+  .section-5 {
+    padding: 30px 0; }
+    .section-5 h2 {
+      font-size: 26px; }
+    .section-5 .line {
+      margin: 44px auto 0px; }
+  /*------------------------ Section-6 --------------------------*/
+  .section-6 h2 {
+    line-height: 36px;
+    margin-bottom: 40px; }
+  .section-6 .row {
+    padding: 30px 0; }
+  .section-6 img {
+    display: none; }
+  /*------------------------ Section-7 --------------------------*/
+  .section-7 h2 {
+    font-size: 22px;
+    line-height: 32px; }
+  /*------------------------ Section-8 --------------------------*/
+  /*------------------------ Section-9 --------------------------*/
+  .section-9 {
+    padding: 30px 0; }
+    .section-9 h2 {
+      font-size: 26px;
+      line-height: 36px;
+      text-align: center; }
+    .section-9 h3 {
+      font-size: 24px;
+      text-align: center; }
+    .section-9 .blue-border {
+      padding: 28px 10px 17px;
+      font-size: 22px; }
+      .section-9 .blue-border p {
+        font-size: 22px; }
+  /*------------------------ Section-10 --------------------------*/
+  .section-10 .row {
+    padding: 30px 0; }
+  .section-10 img {
+    display: none; }
+  .section-10 h2 {
+    line-height: 42px;
+    text-align: center; }
+  /*------------------------ Section-11 --------------------------*/
+  .section-11 {
+    padding: 30px 0; }
+    .section-11 .line {
+      margin: 20px auto 16px; }
+    .section-11 h2 {
+      line-height: 38px;
+      margin-bottom: 50px;
+      font-size: 28px;
+      text-align: center; }
+    .section-11 li {
+      font-size: 16px; }
+    .section-11 ul {
+      margin-bottom: 50px; }
+    .section-11 h3 {
+      font-size: 24px;
+      text-align: center; }
+    .section-11 p {
+      line-height: 26px;
+      font-size: 16px; }
+  /*------------------------ Section-12 --------------------------*/
+  .section-12 img {
+    width: 100%;
+    margin-top: 20px; }
+  .section-12 h2 {
+    padding: 30px 0 30px;
+    line-height: 32px;
+    font-size: 22px; }
+  .section-12 .line {
+    margin: 0px auto; }
+  .section-12 h3 {
+    padding: 30px 0 30px; }
+  /*------------------------ Section-13 --------------------------*/
+  .section-13 {
+    padding: 30px 0; }
+    .section-13 h2 {
+      font-size: 22px;
+      text-align: center;
+      line-height: 32px; }
+    .section-13 .grey-border {
+      padding: 30px 15px; }
+      .section-13 .grey-border p {
+        font-size: 20px; }
+    .section-13 p.after-border {
+      font-size: 16px; }
+    .section-13 h3 {
+      padding: 30px 0 55px;
+      font-size: 26px; }
+    .section-13 .blue-border {
+      border: 15px solid #c7edf7;
+      padding: 16px 0 58px;
+      position: relative; }
+      .section-13 .blue-border h3 {
+        font-size: 26px; }
+      .section-13 .blue-border img {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 90%;
+        margin: 0 auto; }
+    .section-13 .sub-section h3 {
+      font-size: 20px;
+      padding: 20x 0 20px; }
+    .section-13 .sub-section p {
+      font-size: 16px; }
+  /*------------------------ Section-14 --------------------------*/
+  /*------------------------ Footer --------------------------*/
+  .footer {
+    padding: 54px 0 30px; }
+    .footer p {
+      font-size: 14px;
+      line-height: 24px; }
+    .footer p.fs-16 {
+      font-size: 16px;
+      line-height: 20px; }
+  /*---FB---*/
+  .fblike {
+    bottom: 50px; } }
