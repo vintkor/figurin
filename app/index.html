@@ -55,7 +55,7 @@
 								<span class="pink fw-700 price">299</span> <span class="fw-700 price-uah">грн,</span> <span class="bad-price">вместо 400</span>
 							</p>
 							<span class="wow animated bounceIn"  data-wow-duration="1s" data-wow-offset="150">
-							<a href="#" class="order">Оформить заявку</a>
+							<a href="#" class="order" data-toggle="modal" data-target=".bs-example-modal-lg">Оформить заявку</a>
 							</span>
 						</div>
 						<div class="clearfix"></div>						
@@ -80,17 +80,17 @@
 				<div class="col-sm-12">
 					<h2  class="wow animated fadeIn"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay="0s">Закажите консультацию в любое удобное<br> для Вас время</h2>
 					<p>Заполните данные ниже и нажмите кнопку "Заказать бесплатно" прямо сейчас</p>
-					<form action="" id="ajaxform">
+					<form action="" id="ajaxform" method="post" >
 						<div class="col-sm-4">
-							<input type="text" value="" placeholder="Ваше имя">							
+							<input type="text" id="name"  value="" placeholder="Ваше имя" name="name">		
 						</div>
 						<div class="col-sm-4">
-							<input type="text" value="" placeholder="Номер телефона">						
+							<input type="text" id="phone" class="phone" value="" placeholder="Номер телефона" name="phone">
 						</div>
 						<div class="col-sm-4">
-							<input type="text" value="" placeholder="E-mail">							
+							<input type="text" id="email" value="" placeholder="E-mail" name="email">		
 						</div>
-						<button class="order wow animated bounceIn"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay="0s">Заказать бесплатно</button>
+						<button  id="submit" class="order wow animated bounceIn"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay="0s">Заказать бесплатно</button>
 					</form>
 				</div>
 			</div>
@@ -228,7 +228,7 @@
 							<p>
 								<span class="pink fw-700 price">299</span> <span class="fw-700 price-uah">грн,</span> <span class="bad-price">вместо 400</span>
 							</p>
-							<a href="#" class="order wow animated tada"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay=".6s">Оформить заявку</a>
+							<a href="#" class="order wow animated tada"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay=".6s" data-toggle="modal" data-target=".bs-example-modal-lg">Оформить заявку</a>
 						</div>
 						<div class="clearfix"></div>						
 					</div>
@@ -252,17 +252,17 @@
 				<div class="col-sm-12">
 					<h2 class="wow animated fadeIn"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay=".2s">Закажите консультацию в любое удобное<br> для Вас время</h2>
 					<p>Заполните данные ниже и нажмите кнопку "Заказать бесплатно" прямо сейчас</p>
-					<form action="" id="ajaxform2">
+					<form action="" id="ajaxform2" method="post" >
 						<div class="col-sm-4">
-							<input type="text" value="" placeholder="Ваше имя">							
+							<input type="text" id="name2"  value="" placeholder="Ваше имя" name="name">							
 						</div>
 						<div class="col-sm-4">
-							<input type="text" value="" placeholder="Номер телефона">						
+							<input type="text" id="phone2" class="phone2" value="" placeholder="Номер телефона" name="phone">						
 						</div>
 						<div class="col-sm-4">
-							<input type="text" value="" placeholder="E-mail">							
+							<input type="text" id="email2" value="" placeholder="E-mail" name="email">							
 						</div>
-						<button class="order wow animated bounceIn"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay=".2s">Заказать бесплатно</button>
+						<button  id="submit" class="order wow animated bounceIn"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay="0s">Заказать бесплатно</button>
 					</form>
 				</div>
 			</div>
@@ -384,7 +384,7 @@
 							<p>
 								<span class="pink fw-700 price">299</span> <span class="fw-700 price-uah">грн,</span> <span class="bad-price">вместо 400</span>
 							</p>
-							<a href="#" class="order wow animated tada"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay=".4s">Оформить заявку</a>
+							<a href="#" class="order wow animated tada"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay=".4s" data-toggle="modal" data-target=".bs-example-modal-lg">Оформить заявку</a>
 						</div>
 						<div class="clearfix"></div>						
 					</div>
@@ -408,17 +408,17 @@
 				<div class="col-sm-12">
 					<h2 class="wow animated fadeIn"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay=".2s">Закажите консультацию в любое удобное<br> для Вас время</h2>
 					<p>Заполните данные ниже и нажмите кнопку "Заказать бесплатно" прямо сейчас</p>
-					<form action="" id="ajaxform3">
+					<form action="" id="ajaxform3" method="post" >
 						<div class="col-sm-4">
-							<input type="text" value="" placeholder="Ваше имя">							
+							<input type="text" id="name3"  value="" placeholder="Ваше имя" name="name">							
 						</div>
 						<div class="col-sm-4">
-							<input type="text" value="" placeholder="Номер телефона">						
+							<input type="text" id="phone3" class="phone3" value="" placeholder="Номер телефона" name="phone">						
 						</div>
 						<div class="col-sm-4">
-							<input type="text" value="" placeholder="E-mail">							
+							<input type="text" id="email3" value="" placeholder="E-mail" name="email">							
 						</div>
-						<button class="order wow animated tada"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay=".4s">Заказать бесплатно</button>
+						<button  id="submit" class="order wow animated bounceIn"  data-wow-duration="1s" data-wow-offset="150" data-wow-delay="0s">Заказать бесплатно</button>
 					</form>
 				</div>
 			</div>
@@ -459,6 +459,42 @@
 <div class="fblike">
 	<div class="fb-like" data-href="http://stamina.in.ua/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
 </div>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content col-sm-12">
+        <div class="col-sm-offset-2 col-sm-8">
+          <h2>Опишите, пожалуйста, ваш вопрос</h2>
+        </div>
+        <form role="form" id="ajaxform4" method="post" class="form-horizontal">
+          <div class="form-group">
+            <!-- <label for="name" class="col-sm-4 control-label">Введите Ваше имя</label> -->
+            <div class="col-sm-offset-2 col-sm-8">
+              <input class="form-control" id="name4" type="text" placeholder="Введите Ваше имя" name="name">
+            </div>
+          </div>
+          <div class="form-group">
+            <!-- <label for="email" class="col-sm-4 control-label">Введите Вашу почту</label> -->
+            <div class="col-sm-offset-2 col-sm-8">
+              <input class="form-control" id="email4" type="email" placeholder="Введите Вашу почту" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <!-- <label for="phone" class="col-sm-4 control-label">Введите Ваш телефон <span class="accent">*</span></label> -->
+            <div class="col-sm-offset-2 col-sm-8">
+              <input class="form-control phone4" id="phone4" type="phone" placeholder="Введите Ваш телефон *" name="phone" >
+            </div>
+          </div>
+          <div class="col-sm-offset-2 col-sm-8">
+            <p><span class="accent">*</span> Поле, отмеченное звёздочкой, является обязательными для подтверждения ваших данных</p>
+          </div>
+          <div class="col-sm-offset-2 col-sm-8" style="margin-bottom: 30px;">
+            <button type="submit" id="submit" class="btn btn-success">Отправить сейчас</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
 	<script src="js/libs.min.js"></script>
 	<script src="js/main.js"></script>
