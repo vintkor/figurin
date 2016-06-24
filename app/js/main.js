@@ -35,7 +35,7 @@ $(document).ready(function() { // вся магия после загрузки 
     $("#ajaxform").submit(function(){ // перехватываем все при событии отправки
         var form = $(this); // запишем форму, чтобы потом не было проблем с this
         var error = false; // предварительно ошибок нет
-        form.find('input, textarea').each( function(){ // пробежим по каждому полю в форме
+        form.find('input').each( function(){ // пробежим по каждому полю в форме
             if ($('#phone').val() == '') { // если находим пустое (было так ---if ($(this).val() == '') {---)
                 sweetAlert("Ой...", "Необходимо указать номер телефона!", "error"); // говорим заполняй!
                 error = true; // ошибка
@@ -45,11 +45,11 @@ $(document).ready(function() { // вся магия после загрузки 
             var data = form.serialize(); // подготавливаем данные
             $.ajax({ // инициализируем ajax запрос
                 type: 'POST', // отправляем в POST формате, можно GET
-                url: 'contacts.php', // путь до обработчика, у нас он лежит в той же папке
+                url: 'mailto.php', // путь до обработчика, у нас он лежит в той же папке
                 dataType: 'json', // ответ ждем в json формате
                 data: data, // данные для отправки
                 beforeSend: function(data) { // событие до отправки
-                    form.find('input[type="submit"]').attr('disabled', 'disabled'); // например, отключим кнопку, чтобы не жали по 100 раз
+                    form.find('button').attr('disabled', 'disabled'); // например, отключим кнопку, чтобы не жали по 100 раз
                 },
                 complete: function(data) { // событие после любого исхода
                     swal("Отлично!", "Менеджер-консультант свяжется с Вами в ближайшее время.", "success");
@@ -67,7 +67,7 @@ $(document).ready(function() { // вся магия после загрузки 
     $("#ajaxform2").submit(function(){ // перехватываем все при событии отправки
         var form = $(this); // запишем форму, чтобы потом не было проблем с this
         var error = false; // предварительно ошибок нет
-        form.find('input, textarea').each( function(){ // пробежим по каждому полю в форме
+        form.find('input').each( function(){ // пробежим по каждому полю в форме
             if ($('#phone2').val() == '') { // если находим пустое (было так ---if ($(this).val() == '') {---)
                 sweetAlert("Ой...", "Необходимо указать номер телефона!", "error"); // говорим заполняй!
                 error = true; // ошибка
@@ -77,11 +77,11 @@ $(document).ready(function() { // вся магия после загрузки 
             var data = form.serialize(); // подготавливаем данные
             $.ajax({ // инициализируем ajax запрос
                 type: 'POST', // отправляем в POST формате, можно GET
-                url: 'contacts.php', // путь до обработчика, у нас он лежит в той же папке
+                url: 'mailto.php', // путь до обработчика, у нас он лежит в той же папке
                 dataType: 'json', // ответ ждем в json формате
                 data: data, // данные для отправки
                 beforeSend: function(data) { // событие до отправки
-                    form.find('input[type="submit"]').attr('disabled', 'disabled'); // например, отключим кнопку, чтобы не жали по 100 раз
+                    form.find('button').attr('disabled', 'disabled'); // например, отключим кнопку, чтобы не жали по 100 раз
                 },
                 complete: function(data) { // событие после любого исхода
                     swal("Отлично!", "Менеджер-консультант свяжется с Вами в ближайшее время.", "success");
@@ -99,7 +99,7 @@ $(document).ready(function() { // вся магия после загрузки 
     $("#ajaxform3").submit(function(){ // перехватываем все при событии отправки
         var form = $(this); // запишем форму, чтобы потом не было проблем с this
         var error = false; // предварительно ошибок нет
-        form.find('input, textarea').each( function(){ // пробежим по каждому полю в форме
+        form.find('input').each( function(){ // пробежим по каждому полю в форме
             if ($('#phone3').val() == '') { // если находим пустое (было так ---if ($(this).val() == '') {---)
                 sweetAlert("Ой...", "Необходимо указать номер телефона!", "error"); // говорим заполняй!
                 error = true; // ошибка
@@ -109,11 +109,11 @@ $(document).ready(function() { // вся магия после загрузки 
             var data = form.serialize(); // подготавливаем данные
             $.ajax({ // инициализируем ajax запрос
                 type: 'POST', // отправляем в POST формате, можно GET
-                url: 'contacts.php', // путь до обработчика, у нас он лежит в той же папке
+                url: 'mailto.php', // путь до обработчика, у нас он лежит в той же папке
                 dataType: 'json', // ответ ждем в json формате
                 data: data, // данные для отправки
                 beforeSend: function(data) { // событие до отправки
-                    form.find('input[type="submit"]').attr('disabled', 'disabled'); // например, отключим кнопку, чтобы не жали по 100 раз
+                    form.find('button').attr('disabled', 'disabled'); // например, отключим кнопку, чтобы не жали по 100 раз
                 },
                 complete: function(data) { // событие после любого исхода
                     swal("Отлично!", "Менеджер-консультант свяжется с Вами в ближайшее время.", "success");
@@ -131,7 +131,7 @@ $(document).ready(function() { // вся магия после загрузки 
     $("#ajaxform4").submit(function(){ // перехватываем все при событии отправки
         var form = $(this); // запишем форму, чтобы потом не было проблем с this
         var error = false; // предварительно ошибок нет
-        form.find('input, textarea').each( function(){ // пробежим по каждому полю в форме
+        form.find('input').each( function(){ // пробежим по каждому полю в форме
             if ($('#phone4').val() == '') { // если находим пустое (было так ---if ($(this).val() == '') {---)
                 sweetAlert("Ой...", "Необходимо указать номер телефона!", "error"); // говорим заполняй!
                 error = true; // ошибка
@@ -141,11 +141,11 @@ $(document).ready(function() { // вся магия после загрузки 
             var data = form.serialize(); // подготавливаем данные
             $.ajax({ // инициализируем ajax запрос
                 type: 'POST', // отправляем в POST формате, можно GET
-                url: 'contacts.php', // путь до обработчика, у нас он лежит в той же папке
+                url: 'mailto.php', // путь до обработчика, у нас он лежит в той же папке
                 dataType: 'json', // ответ ждем в json формате
                 data: data, // данные для отправки
                 beforeSend: function(data) { // событие до отправки
-                    form.find('input[type="submit"]').attr('disabled', 'disabled'); // например, отключим кнопку, чтобы не жали по 100 раз
+                    form.find('button').attr('disabled', 'disabled'); // например, отключим кнопку, чтобы не жали по 100 раз
                 },
                 complete: function(data) { // событие после любого исхода
                     swal("Отлично!", "Менеджер-консультант свяжется с Вами в ближайшее время.", "success");
